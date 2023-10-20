@@ -1,5 +1,5 @@
 Humm.. what to say
-oh yeah, in the following exammple output, I noticed that the resolved non extended style does not match the original/base input style.
+oh yeah, in the following example output, I noticed that the resolved non extended style does not match the original/base input style.
 So idk what is going on exactly, it's an issue.
 If you can help me with that I'll be cool.
 
