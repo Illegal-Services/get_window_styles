@@ -41,14 +41,11 @@ WS_EX_WINDOWEDGE: 256 (0x100)
 
 resolved style: 256 (0x100)
 ```
-
 ## Credits
 
-* The method I uses to filter the styles has been inspired from:
-  * https://github.com/Xpra-org/xpra/blob/9f892b77cfd0a0ad0dbe76387755b474bf9965f6/packaging/MSWindows/gen_win32con.py
-
-* Helpers from Discord: https://discord.gg/GSVrHag
-  * @mdev:
-    Helped me fixing an issue where I was using the "+" opeartor instead of the "|" for resolving the styles, which was causing an innacurate calculation of the 'resolved_style' variable.
-  * @Grub4K:
-    Code refining and optimization.
+* The method I uses to filter the styles has been inspired from:<br>
+> https://github.com/Xpra-org/xpra/blob/9f892b77cfd0a0ad0dbe76387755b474bf9965f6/packaging/MSWindows/gen_win32con.py<br>
+* Helpers from https://discord.gg/GSVrHag:<br>
+> [@Grub4K](https://github.com/Grub4K) - Code refining and optimization.<br>
+> [@mdev](https://github.com/mdev_new) - Helped me fixing an issue where I was using the "+" opeartor instead of the "|" for resolving the styles,<br>
+which was causing an innacurate calculation of the 'resolved_style' variable.<br>
