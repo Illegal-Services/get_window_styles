@@ -6,8 +6,8 @@
 
 ## Advantages
 
-* It has a debug option where you can analysis in a human readable what is going on.
 * Officially tested for styles and exstyles.
+* Has a built in debugging that allows you to performs an in-depth analysis, in a human-readable format to understand what is happening within the code.
 
 ## Example Output
 ```
