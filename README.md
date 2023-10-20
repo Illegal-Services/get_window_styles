@@ -9,7 +9,7 @@
 * It has a debug option where you can analysis in a human readable what is going on.
 * Officially tested for styles and exstyles.
 
-## Example Output:
+## Example Output
 ```
 Window Styles:
 original style: 365363200 (0x15c70000)
@@ -41,3 +41,14 @@ WS_EX_WINDOWEDGE: 256 (0x100)
 
 resolved style: 256 (0x100)
 ```
+
+## Credits
+
+* The method I uses to filter the styles has been inspired from:
+  * https://github.com/Xpra-org/xpra/blob/9f892b77cfd0a0ad0dbe76387755b474bf9965f6/packaging/MSWindows/gen_win32con.py
+
+* Helpers from Discord: https://discord.gg/GSVrHag
+  * @mdev:
+    Helped me fixing an issue where I was using the "+" opeartor instead of the "|" for resolving the styles, which was causing an innacurate calculation of the 'resolved_style' variable.
+  * @Grub4K:
+    Code refining and optimization.
