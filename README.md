@@ -1,9 +1,15 @@
-Humm.. what to say
-oh yeah, in the following example output, I noticed that the resolved non extended style does not match the original/base input style.
-So idk what is going on exactly, it's an issue.
-If you can help me with that I'll be cool.
+# list_window_styles
 
-# Example Output:
+## Description
+
+* List from a given handle its styles.
+
+## Advantages
+
+* It has a debug option where you can analysis in a human readable what is going on.
+* Officially tested for styles and exstyles.
+
+## Example Output:
 ```
 Window Styles:
 original style: 365363200 (0x15c70000)
@@ -23,7 +29,7 @@ WS_THICKFRAME: 262144 (0x40000)
 WS_TILED: 0 (0x0)
 WS_VISIBLE: 268435456 (0x10000000)
 
-resolved style: 378404864 (0x168e0000)
+resolved style: 365363200 (0x15c70000)
 --------------------------------------------------
 Extended Window Styles:
 original style: 256 (0x100)
