@@ -7,7 +7,7 @@
 ## Advantages
 
 * Officially tested for styles and exstyles.
-* Has a built in debugging that allows you to performs an in-depth analysis, in a human-readable format, that lists and compare the found resolved styles.
+* Has a built in debugging feature that allows you to performs an in-depth analysis, in a human-readable format, that lists and compare the found resolved styles.
 
 ## Example Output
 ```
