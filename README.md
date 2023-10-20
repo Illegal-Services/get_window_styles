@@ -47,5 +47,5 @@ resolved style: 256 (0x100)
 > https://github.com/Xpra-org/xpra/blob/9f892b77cfd0a0ad0dbe76387755b474bf9965f6/packaging/MSWindows/gen_win32con.py<br>
 * Helpers from https://discord.gg/GSVrHag:<br>
 > [@Grub4K](https://github.com/Grub4K) - Code refining and optimization.<br>
-> [@mdev](https://github.com/mdev-new) - Helped me fixing an issue where I was using the "+" opeartor instead of the "|" for resolving the styles,<br>
+> [@mdev](https://github.com/mdev-new) - Helped me fixing an issue where I was using the "+" opeartor instead of the "|",<br>
 which was causing an innacurate calculation of the 'resolved_style' variable.<br>
